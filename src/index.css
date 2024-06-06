@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+  --blue:#2f80ed;
+  --white:#ffffff;
+  --black:#000000;
+  --light-blue:#eaf2fd;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+button{
+  border:none;
+  padding: 5px;
+}
+.iconbutton{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.primarybutton{
+  background-color:var(--blue);
+  color: var(--white);
+  border-radius: 3em;
+  padding: 0.8em;
+}
+
+/* hero section */
+#hero-section{
+height: 100vh;
+max-height:calc(100vh - 8em);
+  background: var(--light-blue);
+  padding-top: 3em;
+}
+.intro-text{
+  color: #3f3f46;
+  text-align: center;
+}
+.intro-text h6{
+  font-size: 1.5em;
+  color: var(--blue);
+ 
+}
+.intro-text span{
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.intro-text span h1{
+  display: inline;
+  font-size: 1em;
+  font-weight: 800;
+}
+.intro-text p{
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 0.5em;
+}
+
