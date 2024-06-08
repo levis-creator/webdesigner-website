@@ -3,14 +3,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-
   }
 
   .navlinks{
     display: none;
   }
-  @media(min-width:640px){
-    .iconbutton{
+  @media(min-width: 640px){
+    .toggle{
         display:none;
     }
     .navlinks{
@@ -21,8 +20,18 @@ nav{
     }
 
   }
-  @media(min-width:1024px){
+  @media(min-width: 1024px){
     nav{
-      padding-inline: 4em;
+      padding-inline: 6em;
     }
   }
+  @media (min-width: 1280px) {
+    nav{
+      padding-inline: 10em;
+    }
+  }
+  @media (min-width:1536px) {
+    nav{
+        padding-inline: 15em;
+    }
+}

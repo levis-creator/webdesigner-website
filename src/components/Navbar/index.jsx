@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav>
       <div>Logo</div>
-      <button className="iconbutton"><AlignJustify/> </button>
+      <button className="iconbutton toggle"><AlignJustify/> </button>
       <ul className="navlinks">
         <li>Home</li>
         <li>Resume</li>
