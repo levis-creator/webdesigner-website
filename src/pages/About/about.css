@@ -1,0 +1,17 @@
+.about-container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about-image{
+    display: flex;
+    justify-content: center;
+}
+.about-image img{
+    height:20em;
+}
+table{
+    text-align: left;
+}
+table td,th{
+    padding: 0.5em 2em 0.5em 0;
+}

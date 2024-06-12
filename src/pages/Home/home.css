@@ -2,7 +2,7 @@
 #hero-section {
   height: calc(100vh - 8em);
   background: var(--light-blue);
-  padding-top: 3em;
+ 
   }
   .content-container{
     height: auto;
@@ -53,10 +53,6 @@
 
 
 @media (min-width: 1024px) {
-    #hero-section{
-        height: auto;
-        padding-inline: 6em;
-    }
     .content-container{
         display: flex;
     }
@@ -73,9 +69,6 @@
  
 }
 @media (min-width: 1280px) {
-    #hero-section{
-        padding-inline: 10em;
-    }
     .intro-text h6 {
         font-size: 1.8em;
       
@@ -96,7 +89,5 @@
       }
 }
 @media (min-width:1536px) {
-    #hero-section{
-        padding-inline: 15em;
-    }
+ 
 }

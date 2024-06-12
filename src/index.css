@@ -36,4 +36,23 @@ button{
   border: 1px solid var(--gray);
   color: var(--gray);
 }
+section{
+  padding-top: 3em;
+}
+@media (min-width: 1024px) {
+section{
+      height: auto;
+      padding-inline: 6em;
+  }
+}
+@media (min-width: 1280px) {
+section{
+      padding-inline: 10em;
+  }
+}
 
+@media (min-width:1536px) {
+  section{
+      padding-inline: 15em;
+  }
+}
