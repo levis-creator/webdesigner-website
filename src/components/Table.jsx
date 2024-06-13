@@ -1,43 +1,52 @@
 
 function Table() {
+  const userDetails={
+    username:"Mac Doe",
+  dob:"30th june 1957",
+  address:"  Elice tower along Kangundo road",
+  zip:"00900",
+  email:"joedoe@email.com",
+  phone:"+25498765432",
+  }
   return (
     <table>
     <tbody>
-
     <tr>
       <th scope='row'>Name:</th>
       <td>
-        John Doe
+        {userDetails.username}
       </td>
     </tr>
     <tr>
       <th scope='row'>Date of Birth:</th>
       <td>
-       30th june 1957
+      {
+        userDetails.dob
+      }
       </td>
     </tr>
     <tr>
       <th scope='row'>Address:</th>
       <td>
-      Elice tower along Kangundo road
+      {userDetails.address}
       </td>
     </tr>
     <tr>
       <th scope='row'>Zip Code:</th>
       <td>
-      00900
+      {userDetails.zip}
       </td>
     </tr>
     <tr>
       <th scope='row'>Email:</th>
       <td>
-      joedoe@email.com
+      {userDetails.email}
       </td>
     </tr>
     <tr>
       <th scope='row'>Phone:</th>
       <td>
-      +25498765432
+      {userDetails.phone}
       </td>
     </tr>
     </tbody>

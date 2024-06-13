@@ -38,6 +38,7 @@ button{
 }
 section{
   padding-top: 3em;
+  padding-inline: 1em;
 }
 @media (min-width: 1024px) {
 section{

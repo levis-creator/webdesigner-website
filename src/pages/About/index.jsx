@@ -13,6 +13,7 @@ function About() {
         <div className="info-text">
           <h2>About me</h2>
          <Table/>
+         <button className="primary-button">Download CV</button>
         </div>
     </div>
     </section>
