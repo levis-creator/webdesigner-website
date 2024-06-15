@@ -1,13 +1,6 @@
 
-function Table() {
-  const userDetails={
-    username:"Mac Doe",
-  dob:"30th june 1957",
-  address:"  Elice tower along Kangundo road",
-  zip:"00900",
-  email:"joedoe@email.com",
-  phone:"+25498765432",
-  }
+function Table({userDetails}) {
+
   return (
     <table>
     <tbody>

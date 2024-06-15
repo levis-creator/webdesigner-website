@@ -2,6 +2,15 @@ import './about.css'
 import myImage2 from '../../assets/myImage2.png'
 import Table from '../../components/Table'
 function About() {
+  const userData={
+    username:"Mac Doe",
+  dob:"30th june 1957",
+  address:"  Elice tower along Kangundo road",
+  zip:"00900",
+  email:"joedoe@email.com",
+  phone:"+25498765432",
+  }
+  
   return (
     <section id="about">
     <div className='about-container'>
@@ -12,7 +21,8 @@ function About() {
         {/* info */}
         <div className="info-text">
           <h2>About me</h2>
-         <Table/>
+         <Table userDetails={userData}/>
+        
          <button className="primary-button">Download CV</button>
         </div>
     </div>
